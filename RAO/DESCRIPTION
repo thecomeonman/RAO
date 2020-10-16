@@ -1,0 +1,24 @@
+Package: RAO - Road Accessibility Optimiser
+Type: Package
+Title: Dashboard + code to solve the warehouse problem
+Version: 0.1.0
+Author: Aditya Kothari
+Maintainer: Aditya Kothari <aditya.kothari@atherenergy.com>
+Description: Has a shiny based dashboard and bunch of helper functions to
+    use OSM data and optimise the placement of charging stations, which can
+    be extended to any other thing, across a region to achieve maximum 
+    coverage and accessibility with the least number of stations.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    bit64,
+    ggplot2,
+    ggmap,
+    igraph,
+    geosphere,
+    shiny
+Depends:
+    R (>= 3.2.3)
+RoxygenNote: 7.1.0
